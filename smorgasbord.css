@@ -1,0 +1,65 @@
+body, button, textarea {
+    background-color: #dfaee6;
+    font-family: sans-serif;
+}
+
+button, textarea {
+    padding: 0.5em;
+    border: 1px solid #000;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+#container {
+    max-width: 600px;
+    margin: 25px auto;
+}
+
+h2 {
+    /* Make heading closer to its text area than the one before the heading */
+    margin-top: 1em;
+
+    /* make space between heading and its text box clickable */
+    margin-bottom: 0em;
+    padding-bottom: 0.5em;
+}
+
+textarea {
+    width: 100%;
+}
+
+pre {
+    max-width: 100%;
+}
+
+#export {
+    word-break: break-word;
+}
+
+#export-container {
+    line-height: 1em;
+    max-height: 5.5em;
+    overflow-y: scroll;
+}
+
+#export:before {
+    content: 'click to copy your exported data: ';
+}
+
+textarea.white {
+    background-color: #fff;
+}
+
+textarea.green {
+    background-color: rgb(124, 252, 134);
+}
+
+textarea.yellow {
+    background-color: rgb(250, 252, 129);
+}
+
+textarea.red {
+    background-color: rgb(255, 94, 94);
+}
